@@ -1,0 +1,21 @@
+<!-- HTML Structure -->
+<input type="text" class="input-output" placeholder="Enter value" />
+<p class="input-output"></p>
+
+<input type="text" class="input-output" placeholder="Enter another value" />
+<p class="input-output"></p>
+
+<script>
+  // Get all the input-output pairs
+  const elements = document.querySelectorAll('.input-output');
+
+  // Loop through all the input elements and add event listeners
+  for (let i = 0; i < elements.length; i += 2) {
+    const inputField = elements[i];      // Every even index is input
+    const outputField = elements[i + 1]; // Every odd index is output (next sibling)
+
+    inputField.addEventListener('input', function() {
+      outputField.textContent = inputField.value; // Update corresponding output
+    });
+  }
+</script>

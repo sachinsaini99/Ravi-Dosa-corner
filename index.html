@@ -1,21 +1,133 @@
-<!-- HTML Structure -->
-<input type="text" class="input-output" placeholder="Enter value" />
-<p class="input-output"></p>
+<!DOCTYPE html>
+<html>
 
-<input type="text" class="input-output" placeholder="Enter another value" />
-<p class="input-output"></p>
+<head>
+  <title>
 
-<script>
-  // Get all the input-output pairs
-  const elements = document.querySelectorAll('.input-output');
+  </title>
+  <link rel="stylesheet" href="Home.css">
+  <style>
 
-  // Loop through all the input elements and add event listeners
-  for (let i = 0; i < elements.length; i += 2) {
-    const inputField = elements[i];      // Every even index is input
-    const outputField = elements[i + 1]; // Every odd index is output (next sibling)
 
-    inputField.addEventListener('input', function() {
-      outputField.textContent = inputField.value; // Update corresponding output
-    });
-  }
-</script>
+
+
+  </style>
+
+</head>
+
+<body>
+  <div class="all">
+    <div class="all1">
+
+      <div class="navbar">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="south.html">SOUTH INDIAN</a></li>
+
+        <div class="logo">
+          <img src="logo.png" alt="">
+        </div>
+        <li><a href="chainease.html">CHINEASE FOOD</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+      </div>
+      <div class="hesdet">
+      <div class="heading">
+        <h2>Ravi Dosa Corner Palam Colony New Delhi</h2>
+      </div>
+        <div class="detail">
+          <p>Ravi Dosa Corner is a popular restaurant located in Palam, New Delhi, known for serving a variety of delicious
+            South Indian dishes such as dosa, idli, and vada, alongside flavorful Chinese options like chow mein. The
+            restaurant offers a comfortable seating area, making it an ideal spot to enjoy a meal with family or to
+            celebrate special occasions like birthday parties. The food at Ravi Dosa Corner is highly praised for its
+            excellent taste, ensuring a satisfying dining experience for all visitors.
+    
+          </p>
+        
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="slider">
+    <div class="slides">
+      <!-- First Slide -->
+      <div class="slide">
+        <img src="images11.jpeg" alt="Offer 1">
+        <div class="offer-text">
+          <h2>50% Off on South Indian Dishes</h2>
+          <p>Use code: SOUTH50</p>
+        </div>
+      </div>
+      <!-- Second Slide -->
+      <div class="slide">
+        <img src="images 12.jpeg" alt="Offer 2">
+        <div class="offer-text">
+          <h2>Buy One Get One Free - Chinese Cuisine</h2>
+          <p>Offer valid this week only!</p>
+        </div>
+      </div>
+      <!-- Third Slide -->
+      <div class="slide">
+        <img src="Spring-Rolls-13.jpg" alt="Offer 3">
+        <div class="offer-text">
+          <h2>Free Dessert with Orders Above $30</h2>
+          <p>Available on select items</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <button class="prev" onclick="prevSlide()">&#10094;</button>
+    <button class="next" onclick="nextSlide()">&#10095;</button>
+  </div>
+  
+<div class="image">
+
+  
+  <div class="image0">
+    
+  <div class="image1"><img src="image1.jpg" alt="">
+    <p>Masala Dosa</p>
+    <p>Rs 70 - Rs 100</p></div>
+ 
+  <div class="image1"><img src="vada.jpeg" alt="">
+    <p>Vada Sambhar</p>
+    <p>Rs 40 - Rs 70</p></div>
+  
+  <div class="image1"><img src="idli.jpeg" alt="">
+    <p>Idli Sambhar</p>
+    <p>Rs 40 - Rs 70</p></div>
+    
+ 
+  </div>
+<div class="image0">
+<div class="image1"><img src="chowmein.jpg" alt="">
+  <p>Chowmein</p>
+  <p>Rs 70 - Rs 100</p></div>
+
+<div class="image1"><img src="spring role.jpeg" alt="">
+  <p>Spring Roll</p>
+  <p>Rs 70 - Rs 100</p></div>
+
+<div class="image1"><img src="chili patato.webp" alt="">
+  <p>Chilli Patato</p>
+  <p>Rs 70 - Rs 110</p></div>
+    </div>
+    </div>
+
+
+
+  <div class="image2">
+    <img src="chowmein2.png" alt="">
+    
+<div class="image3">
+  <img src="asli_dosa.png" alt="">
+  
+</div>
+</div>
+<div class="footer">
+  <p>ravidosacorner@gmail.com</p>
+  <p>Address - Palam Colony, RZB-215, Old Mehrauli Rd, Raj Nagar I, Raj Nagar, New Delhi, Delhi 110045</p>
+</div>
+  <script src="script.js"></script>
+</body>
+
+</html>
