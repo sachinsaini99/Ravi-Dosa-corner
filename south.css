@@ -1,0 +1,647 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+.all {
+
+  height: 550px;
+  background-image: url("image3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.all1 {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+
+
+
+.logo img {
+  border: 1px solid black;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+
+
+}
+
+
+.logo img:hover {
+  transform: rotate(270deg);
+
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  opacity: 0.8;
+
+}
+
+
+.navbar li {
+  width: 20%;
+  list-style: none;
+  text-align: center;
+}
+
+.logo {
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(6, 6, 6);
+  font-size: x-small;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+
+}
+
+
+
+
+
+.navbar a:hover {
+  color: red;
+
+}
+
+.navbar>li {
+  width: 100%;
+
+
+}
+
+#li1 {
+  width: 100%;
+  display: block;
+
+}
+
+#li4 {
+  width: 100%;
+}
+
+#li3 {
+  width: 100%;
+
+}
+
+.heading {
+  text-align: center;
+  margin-top: 40px;
+
+
+}
+
+#search {
+  text-align: center;
+}
+
+#search input {
+  width: 70%;
+  text-align: center;
+  border: 0.2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+
+}
+
+
+.hesdet {
+
+  border: 1px solid red;
+  border-radius: 100px;
+  text-align: center;
+  background-color: rgb(241, 222, 225);
+  padding-bottom: 20px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+
+
+
+}
+
+.heading h2 {
+  text-align: center;
+  color: red;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+
+}
+
+.detail {
+  width: 100%;
+  height: 100%;
+
+
+
+}
+
+.detail p {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  color: black;
+  margin-top: 20px;
+
+}
+
+
+.heading h2:hover {
+
+  color: gray;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.con1 {
+  display: flex;
+  flex-direction: col;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.con2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  background-color: rgb(239, 237, 237);
+
+
+}
+
+
+.name1 {
+  width: 35%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.name {
+  width: 35%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 28px;
+  font-size: x-small;
+}
+
+.quantity1 {
+  width: 20%;
+  text-align: right;
+}
+
+.quantity {
+  width: 25%;
+  margin-top: 28px;
+  text-align: right;
+
+}
+
+.quantity input {
+  width: 70px;
+
+}
+
+.price1 {
+  width: 25%;
+  text-align: right;
+  margin-right: 25px;
+
+}
+
+.price {
+  width: 25%;
+  text-align: right;
+  margin-right: 35px;
+  margin-top: 28px;
+
+}
+
+
+.iamge {
+  width: 20%;
+  text-align: center;
+}
+
+.iamge img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid red;
+  border-radius: 50%;
+
+
+
+}
+
+.container1 {
+  width: 100%;
+
+
+}
+
+.con3 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: x-small;
+}
+
+.listed_dish_h {
+  width: 59%;
+  border: 1px solid black;
+  text-align: center;
+
+}
+
+.listed_quantity_h {
+  width: 20%;
+  border: 1px solid black;
+  text-align: center;
+
+}
+
+.listed_price_h {
+  width: 20%;
+  border: 1px solid black;
+  text-align: center;
+
+}
+
+.con4 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: x-small;
+}
+
+.listed_dish {
+  width: 59%;
+  border: 1px solid black;
+  text-align: center;
+  font-size: small;
+
+}
+
+.listed_quantity {
+  width: 20%;
+  border: 1px solid black;
+  text-align: center;
+
+}
+
+.listed_price {
+  width: 20%;
+  border: 1px solid black;
+  text-align: center;
+
+}
+
+.btn {
+  margin-left: 35%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 30%;
+  justify-content: center;
+  background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+
+
+}
+
+.footer {
+  background-color: rgb(199, 79, 79);
+  border: 1px solid black;
+}
+
+.footer p {
+  display: inline;
+  margin-left: 5px;
+  font-size: x-small;
+
+}
+
+@media screen and (min-width: 720px) {
+  .all {
+    background-image: url("image3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+
+  .navbar li {
+    list-style: none;
+    width: 100%;
+
+  }
+
+  .logo {
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .navbar a {
+    text-decoration: none;
+    font-size: large;
+    color: rgb(6, 6, 6);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+
+
+  }
+
+  .heading h2 {
+    text-align: center;
+    color: red;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+
+  }
+
+  .detail {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+
+  }
+
+
+  .quantity1 {
+    width: 25%;
+    text-align: center;
+  }
+
+  .quantity {
+    width: 25%;
+    margin-top: 28px;
+    text-align: center;
+
+  }
+
+  .quantity input {
+    width: 50%;
+
+  }
+
+  .price1 {
+    width: 25%;
+    text-align: center;
+  }
+
+  .price {
+    width: 25%;
+    margin-top: 28px;
+    text-align: center;
+
+  }
+
+  .iamge {
+    width: 25%;
+    text-align: center;
+  }
+
+  .iamge img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 50%;
+
+
+
+  }
+
+  .name {
+    font-size: medium;
+  }
+
+  .logo {
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+  .logo img {
+    border: 1px solid black;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+
+  }
+
+  #search {
+    text-align: center;
+  }
+
+  #search input {
+    width: 99%;
+    text-align: center;
+    border: 0.2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+
+  }
+
+
+  .con2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(239, 237, 237);
+    border: 0.5px solid black;
+
+
+
+
+  }
+
+  .btn {
+    margin-left: 35%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    justify-content: center;
+    border: 2px solid black;
+
+  }
+
+  .btn:hover {
+    cursor: pointer;
+  }
+
+  .container1 {
+    width: 100%;
+
+  }
+
+  .con3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .listed_dish_h {
+    width: 33%;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+
+  }
+
+  .listed_quantity_h {
+    width: 33%;
+    padding: 5px;
+
+    border: 1px solid black;
+    text-align: center;
+
+  }
+
+  .listed_price_h {
+    width: 33%;
+    padding: 5px;
+
+    border: 1px solid black;
+    text-align: center;
+
+  }
+
+  .con4 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .listed_dish {
+    width: 33%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+
+
+  }
+
+  .listed_quantity {
+    width: 33%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+
+
+  }
+
+  .listed_price {
+    width: 33%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+
+
+  }
+
+  
+
+
+  .footer {
+    background-color: gray;
+    border: 1px solid black;
+    margin-top: 50px;
+  }
+
+  .footer p {
+    display: inline;
+    margin-left: 100px;
+
+  }
+
+  .con5 {
+    width: 50%;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+  #amountclick{
+    margin-left:40%;
+    padding: 10px;
+  }
+
+  .total_amount {
+    width: 66.1%;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    border-radius: 7px;
+    gap: 20px;
+  }
+
+  #amountclick {
+    border: 2px solid black;
+    border-radius: 7px;
+  }
+
+  .amount {
+    width: 33%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 3px;
+    border-radius: 7px;
+  }
+
+}

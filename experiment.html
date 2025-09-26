@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .papa{
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <div class="papa">
+        <div class="child">
+            <div class="name">chaomen</div>
+            <div class="price">400</div>
+            <div class="quantity"><input type="number" class="quan"></div>
+            <div class="submit"><button>submit</button></div>
+        </div>
+        <div class="child">
+            <div class="name">dosa</div>
+            <div class="price">250</div>
+            <div class="quantity"><input type="number" class="quan"></div>
+            <div class="submit"><button>submit</button></div>
+        </div>
+        <div class="child">
+            <div class="name">rice</div>
+            <div class="price">500</div>
+            <div class="quantity"><input type="number" class="quan" id="quan1"></div>
+            <div class="submit"><button>submit</button></div>
+        </div>
+    </div>
+<div class="bill">
+    <div class="name1"></div>
+    <div class="price1"></div>
+    <div class="quantity1"></div>
+</div>
+
+<script>
+    document.querySelectorAll(".submit").forEach(element => {
+        element.addEventListener("click",()=>{
+           document.getElementsByClassName("name1")[0].innerHTML= element.parentElement.children[0].innerHTML;
+           document.getElementsByClassName("price1")[0].innerHTML= element.parentElement.children[1].innerHTML;
+           document.getElementsByClassName("quantity1")[0].innerHTML= element.parentElement.children[2].innerHTML
+        //    console.log(  document.getElementsByClassName("pricemain")[0].innerHTML)
+        })
+    });
+</script>
+</body>
+</html>
